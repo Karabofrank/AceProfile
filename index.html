@@ -1,9 +1,93 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Brakop</title>
-    </head>
-    <body>
-        
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Data & Operations Analyst</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+      <a href="#" class="logo">~/portfolio</a>
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Stack</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <p class="eyebrow">Data & Operations Analyst • QA Engineering</p>
+      <h1>Turning raw operational data into clear, reliable workflows.</h1>
+      <p class="subtitle">
+        I build structured data pipelines, operational tracking systems, and automated quality checks that cut through messy metrics.
+      </p>
+      <div class="cta-group">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" class="btn secondary">GitHub</a>
+      </div>
+    </section>
+  </header>
+
+  <main class="container">
+    <section id="projects" class="section">
+      <h2>Featured Work</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="card-meta">SQL • Excel • Operational Analytics</div>
+          <h3>Daily Operations & Fleet Tracking System</h3>
+          <p>
+            <strong>Problem:</strong> Fragmented shift counts and equipment logs slowed down daily production reporting.<br/>
+            <strong>Solution:</strong> Designed a unified tracking schema and automated SQL/spreadsheet summaries for machine utilization and labor shifts.
+          </p>
+          <a href="#" class="card-link">Read Case Study →</a>
+        </article>
+
+        <article class="card">
+          <div class="card-meta">Python • Jupyter • Data Modeling</div>
+          <h3>Material Composition & Rebate Baseline Analysis</h3>
+          <p>
+            <strong>Problem:</strong> Needed accurate proportional weight breakdowns across mixed packaging waste streams.<br/>
+            <strong>Solution:</strong> Built a reproducible analysis notebook to model material ratios and standardize baseline reporting.
+          </p>
+          <a href="#" class="card-link">View Notebook →</a>
+        </article>
+
+        <article class="card">
+          <div class="card-meta">QA Testing • Automation • Linux</div>
+          <h3>Automated Regression & Data Validation Suite</h3>
+          <p>
+            <strong>Problem:</strong> Manual verification of data ingestion pipelines missed edge-case formatting errors.<br/>
+            <strong>Solution:</strong> Implemented automated assertion checks to catch schema drift before downstream reporting.
+          </p>
+          <a href="#" class="card-link">View Repo →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Technical Stack</h2>
+      <div class="skills-grid">
+        <div>
+          <h3>Data & Analytics</h3>
+          <p>SQL, Advanced Excel, Python (Pandas, Jupyter), Statistical Inference, KPI Modeling</p>
+        </div>
+        <div>
+          <h3>Engineering & Environment</h3>
+          <p>HTML/CSS/JS, QA & Test Automation, Git / GitHub / GitLab, Linux & PowerShell CLI</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="container footer">
+    <h2>Get in Touch</h2>
+    <p>Open to data analytics, operational intelligence, and QA engineering opportunities.</p>
+    <div class="cta-group">
+      <a href="mailto:you@example.com" class="btn primary">Email Me</a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer" class="btn secondary">LinkedIn</a>
+    </div>
+  </footer>
+</body>
 </html>
